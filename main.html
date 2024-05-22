@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="./img/lebenslauf.png" type="image/x-icon">
+        <title>Lebenslauf</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="ri-home-line"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#berufserfahrung" class="nav__link">
+                                <i class="ri-briefcase-4-line"></i>Berufserfahrung
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#ausbildung" class="nav__link">
+                                <i class="ri-gradienter-line"></i>Ausbildung
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#kenntnisse" class="nav__link">
+                                <i class="ri-computer-line"></i>Kenntnisse
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#interessen" class="nav__link">
+                                <i class="ri-brush-line"></i>Interessen
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#kontakt" class="nav__link">
+                                <i class="ri-contacts-book-2-line"></i>Kontakt
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__buttons">
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-4-line"></i> 
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section hidden" id="home">
+                <div class="home__container container grid section__border">
+                    <div class="home__data grid">
+                        <h1 class="homne__title">
+                            Hi, mein Name ist Lukas,<br>
+                            ich bin ein Datenmanager<br>
+                        </h1>
+
+                        <div class="home__blob grid">
+                            <div class="home__img">
+                                <img src="./img/OZOK0785.JPEG" alt="Lukas Hofer im Roten Polo">
+                            </div>
+                        </div>
+
+                        <ul class="home__social">
+                            <a href="https://www.linkedin.com/in/lukasitaly/" target="_blank" class="home__social-link">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                            <a href="https://github.com/lukasitaly" target="_blank" class="home__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="https://gitlab.com/lukasitaly" target="_blank" class="home__social-link">
+                                <i class="ri-gitlab-line"></i>
+                            </a>
+                            <a href="./pages/404.html" class="home__social-link">
+                                <i class="ri-global-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                ÜBER MICH
+                            </h3>
+                            <p class="home__info-description">
+                                Ich bin ein Tech-Freak. <br>
+                                → FOSS-Enthusiast (Free and Open Source Software)<br>
+                                → Hobby Hardware-Tüftler<br>
+                                → Linux-Enthusiast
+                            </p>
+                        </div>
+                    </div>
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                PERSÖNLICHE INFORMATIONEN
+                            </h3>
+                            <p class="home__info-description">
+                                Alter: 20<br>
+                                Telefon: +39 333 333 333<br>
+                                E-Mail: my@email.com<br>
+                                Nationalität: Italienisch<br>
+                                Standort: Italien
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== BERUFSERFAHRUNG ====================-->
+            <section class="berufserfahrung section hidden" id="berufserfahrung">
+                <h2 class="section__title">Berufserfahrung</h2>
+                <span class="section__subtitle">Berufliche Tätigkeiten</span>
+
+                <div class="berufserfahrung__container container grid section__border">
+                    <div class="berufserfahrung__content hidden">
+                        <h3 class="berufserfahrung__titel">
+                            <i class="ri-pencil-ruler-2-line"></i>Lehre
+                        </h3>
+
+                        <div class="berufserfahrung__info">
+                            <div>
+                                <h3 class="berufserfahrung__name">
+                                    Elektriker
+                                </h3>
+                                <span class="berufserfahrung__firma">Elektro GmbH</span>
+                                <span class="berufserfahrung__stadt"><i class="ri-map-pin-2-line"></i> Italien</span>
+                                <span class="berufserfahrung__jahr">2018 - 2019</span>
+                            </div>
+
+                            <div>
+                                <h3 class="berufserfahrung__name">
+                                    Verkäufer
+                                </h3>
+                                <span class="berufserfahrung__firma">Sport AG</span>
+                                <span class="berufserfahrung__stadt"><i class="ri-map-pin-2-line"></i> Italien</span>
+                                <span class="berufserfahrung__jahr">2019 - 2020
+                                </span>
+                            </div>
+
+                            <div>
+                                <h3 class="berufserfahrung__name">
+                                    Filialleiter
+                                </h3>
+                                <span class="berufserfahrung__firma">Max Mustermann GmbH</span>
+                                <span class="berufserfahrung__stadt"><i class="ri-map-pin-2-line"></i> Italien</span>
+                                <span class="berufserfahrung__jahr">2020 - 2021</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="berufserfahrung__content hidden">
+                        <h3 class="berufserfahrung__titel">
+                            <i class="ri-building-line"></i>Angestellter
+                        </h3>
+
+                        <div class="berufserfahrung__info">
+                            <div>
+                                <h3 class="berufserfahrung__name">
+                                    Front Office
+                                </h3>
+                                <span class="berufserfahrung__firma">Das Hotel GmbH</span>
+                                <span class="berufserfahrung__stadt"><i class="ri-map-pin-2-line"></i> Italien</span>
+                                <span class="berufserfahrung__jahr">2022 - 2022</span>
+                            </div>
+
+                            <div>
+                                <h3 class="berufserfahrung__name">
+                                    Datenmanager
+                                </h3>
+                                <span class="berufserfahrung__firma">Unternehmen AG</span>
+                                <span class="berufserfahrung__stadt"><i class="ri-map-pin-2-line"></i> Italien</span>
+                                <span class="berufserfahrung__jahr">2022 - Jetzt
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--==================== AUSBILDUNG ====================-->
+            <section class="ausbildung section hidden" id="ausbildung">
+                <h2 class="section__title">Ausbildung</h2>
+                <span class="section__subtitle">Mittel- und Oberschulbildung</span>
+
+                <div class="ausbildung__container container grid section__border">
+                    <div class="ausbildung__content hidden">
+                        <h3 class="ausbildung__titel">
+                            <i class="ri-pencil-ruler-2-line"></i>Mittelschule
+                        </h3>
+
+                        <div class="ausbildung__info">
+                            <div>
+                                <h3 class="ausbildung__name">
+                                    Abschluss der Mittelschule
+                                </h3>
+                                <span class="ausbildung__schule">Schulsprengel</span>
+                                <span class="ausbildung__stadt"><i class="ri-map-pin-2-line"></i> Italien</span>
+                                <span class="ausbildung__jahr">2017</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ausbildung__content hidden">
+                        <h3 class="ausbildung__titel">
+                            <i class="ri-building-line"></i>Oberschule
+                        </h3>
+
+                        <div class="ausbildung__info">
+                            <div>
+                                <h3 class="ausbildung__name">
+                                    Ernährung
+                                </h3>
+                                <span class="ausbildung__schule">Fachoberschule</span>
+                                <span class="ausbildung__stadt"><i class="ri-map-pin-2-line"></i> Italien</span>
+                                <span class="ausbildung__jahr">2017 - 2018</span>
+                            </div>
+
+                            <div>
+                                <h3 class="ausbildung__name">
+                                    Techniker
+                                </h3>
+                                <span class="ausbildung__schule">Berufsbildungszentrum</span>
+                                <span class="ausbildung__stadt"><i class="ri-map-pin-2-line"></i> Italien</span>
+                                <span class="ausbildung__jahr">2018 - 2019
+                                </span>
+                            </div>
+                            <div>
+                                <h3 class="ausbildung__name">
+                                    Verkäufer
+                                </h3>
+                                <span class="ausbildung__schule">Berufsbildungszentrum</span>
+                                <span class="ausbildung__stadt"><i class="ri-map-pin-2-line"></i> Italien</span>
+                                <span class="ausbildung__jahr">2019 - 2021
+                                </span>
+                            </div>
+                            <div>
+                                <h3 class="ausbildung__name">    
+                                Abendschule
+                                </h3>
+                                <span class="ausbildung__schule">Fachoberschule</span>
+                                <span class="ausbildung__stadt"><i class="ri-map-pin-2-line"></i> Italien</span>
+                                <span class="ausbildung__jahr">2022 - Jetzt
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--==================== KENNTNISSE ====================-->
+            <section class="kenntnisse section hidden" id="kenntnisse">
+                <h2 class="section__title">Kenntnisse</h2>
+                <span class="section__subtitle">Meine Stärken</span>
+
+
+                <div class="kenntnisse__container container grid section__border">
+
+                    <div class="kenntnisse__card hidden">
+                        <h3 class="kenntnisse__titel">
+                            <i class="ri-chat-voice-line"></i>Sprachen
+                        </h3>
+
+                        <div class="each__skills">
+                            <div class="kenntnisse_name">Deutsch</div>
+                            <div class="percentage__num">10/10</div>
+                            <div class="progress__Bar">
+                                <div class="percentage__tile" style="width: 100%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="each__skills">
+                            <div class="kenntnisse_name">Italienisch</div>
+                            <div class="percentage__num">8/10</div>
+                            <div class="progress__Bar">
+                                <div class="percentage__tile" style="width: 80%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="each__skills">
+                            <div class="kenntnisse_name">Englisch</div>
+                            <div class="percentage__num">9/10</div>
+                            <div class="progress__Bar">
+                                <div class="percentage__tile" style="width: 90%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="kenntnisse__border"></div>
+                    </div>
+
+                    <div class="kenntnisse__card allgemein hidden">
+                        <h3 class="kenntnisse__titel">
+                            <i class="ri-bar-chart-box-line"></i>Allgemein
+                        </h3>
+
+                        <div class="each__skills">
+                            <div class="kenntnisse_name">Microsoft Office</div>
+                            <div class="percentage__num">10/10</div>
+                            <div class="progress__Bar">
+                                <div class="percentage__tile" style="width: 100%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="each__skills">
+                            <div class="kenntnisse_name">HTML & CSS</div>
+                            <div class="percentage__num">6/10</div>
+                            <div class="progress__Bar">
+                                <div class="percentage__tile" style="width: 60%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="each__skills">
+                            <div class="kenntnisse_name">Javascript</div>
+                            <div class="percentage__num">7/10</div>
+                            <div class="progress__Bar">
+                                <div class="percentage__tile" style="width: 70%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="each__skills">
+                            <div class="kenntnisse_name">Excel VBA</div>
+                            <div class="percentage__num">9/10</div>
+                            <div class="progress__Bar">
+                                <div class="percentage__tile" style="width: 90%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="each__skills">
+                            <div class="kenntnisse_name">Windows, Mac & Linux</div>
+                            <div class="percentage__num">9/10</div>
+                            <div class="progress__Bar">
+                                <div class="percentage__tile" style="width: 90%;"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="kenntnisse__border"></div>
+                    </div>      
+            </section>
+
+            <!--==================== INTERESSEN ====================-->
+            <section class="interessen section hidden" id="interessen">
+                <h2 class="section__title">Interessen</h2>
+                <span class="section__subtitle">Was mir gefällt</span>
+
+                <div class="interessen__container container grid section__border">
+                    <div class="interessen__card hidden">
+                        <i class="ri-device-line"></i>
+                        <h2 class="interessen__titel">
+                            Tech
+                        </h2>
+
+                        <p class="interessen__description">
+                            Tech ist ein sehr allgemeiner Begriff, 
+                            deswegen eine genauere Auflistung:
+                            Reparatur von Technischen Geräten,
+                            Programmieren, Software Tweaking,
+                            IT Support
+                        </p>
+
+                        <div class="interessen__border"></div>
+                    </div>
+
+                    <div class="interessen__card hidden">
+                        <i class="ri-run-line"></i>
+                        <h2 class="interessen__titel">
+                            Sport
+                        </h2>
+
+                        <p class="interessen__description">
+                            Ich habe eine Passion für viele Sportarten, 
+                            speziell Eislaufen, Hallen- und Freiklettern,
+                            Laufen, Radfahren, Skifahren, Fittnessstudio
+                        </p>
+
+                        <div class="interessen__border"></div>
+                    </div>
+
+                    <div class="interessen__card hidden">
+                        <i class="ri-parent-line"></i>
+                        <h2 class="interessen__titel">
+                            Familie
+                        </h2>
+
+                        <p class="interessen__description">
+                            Familie ist das a und o in meinem Leben,
+                            somit ist einer meiner Lieblingshobbys
+                            mit der Familie Zeit zu verbringen
+                        </p>
+
+                        <div class="interessen__border"></div>
+                    </div>
+                </div>
+            </section>
+                
+
+            <!--==================== KONTAKT ====================-->
+            <section class="kontakt section hidden" id="kontakt">
+                <h2 class="section__title"><i class="ri-chat-3-line"></i> Kontaktieren Sie mich</h2>
+                
+
+                <div class="kontakt__container container grid section__border">
+                    <div class="kontakt__content">
+
+                        <div class="kontakt__info">
+                            <div class="kontakt__data">
+                                <span class="kontakt__data-titel">E-Mail</span>
+                                <span class="kontakt__data-info">my@email.com</span>
+                            </div>
+
+                            <div class="kontakt__data">
+                                <span class="kontakt__data-titel">Telefon</span>
+                                <span class="kontakt__data-info">+39 333 333 3333</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="kontakt__content">
+                        <form action="" class="kontakt__form" id="kontakt-form">
+                            <div class="kontakt__form-div">
+                                <label class="kontakt__form-tag">Name</label>
+                                <input type="text" name="user_name" required placeholder="Schreiben Sie Ihren Namen" class="kontakt__form-input" id="kontakt-name">
+                            </div>
+                            <div class="kontakt__form-div">
+                                <label class="kontakt__form-tag">E-Mail</label>
+                                <input type="email" name="user_email" required placeholder="Hinterlassen Sie Ihre E-Mail-Adresse" class="kontakt__form-input" id="kontakt-email">
+                            </div>
+                            <div class="kontakt__form-div kontakt__form-area">
+                                <label class="kontakt__form-tag">Grund</label>
+                                <textarea name=user_grund" id="kontakt-grund" class="kontakt__form-input" placeholder="Geben Sie Ihren Grund für die Kontaktaufnahme an"></textarea>
+                            </div>
+
+                            <p class="kontakt__message" id="kontakt-message"></p>
+
+                            <button class="kontakt__button" type="submit">
+                                Absenden <i class="ri-arrow-right-up-line"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__titel">Lukas</h1>
+                <p>Datenmanager</p>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/lukasitaly/" target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                    <a href="https://github.com/lukasitaly" target="_blank" class="footer__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://gitlab.com/lukasitaly" target="_blank" class="footer__social-link">
+                        <i class="ri-gitlab-line"></i>
+                    </a>
+                    <a href="./pages/404.html" class="footer__social-link">
+                        <i class="ri-global-line"></i>
+                    </a> 
+                </ul>
+
+                <br><br><br>
+                <div class="fahrzeug">
+                    <div class="auto">
+                        <img src="./img/auto.png" alt="">
+                    </div>
+                    <div class="räder">
+                        <img src="./img/rad.png" alt="" class="hinterrad">
+                        <img src="./img/rad.png" alt="" class="vorderrad">
+                    </div>
+                    <div class="straße"></div>
+                </div>        
+
+                <span class="footer__signatur">
+                    Lukas 2024
+                </span>
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+        <script src="main.js"></script>
+    </body>
+</html>
